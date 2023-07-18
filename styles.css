@@ -1,0 +1,75 @@
+body{
+    background-color: 	#D2B48C;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-first h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.about-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-second h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.services-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-third h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.bg-color{
+    background-color: #EADDCA;
+}
+.bg-color2{
+    background-color: rgb(36, 136, 223);
+}
+#text {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.circle{
+    position: fixed;
+    left: 95%;
+    top: 75%;
+}
+
+#thread2{
+	top:1.8em;
+	/*right:15px;*/
+	-webkit-animation: thread2 8s infinite;
+  	-moz-animation:    thread2 8s infinite;
+  	-o-animation:      thread2 8s infinite;
+  	animation:         thread2 8s infinite;	
+}
+  /* .circle {
+    position: fixed;
+  } */
