@@ -3,12 +3,11 @@ body{
     font-family: sans-serif;
     transition: all 0.5s ease;
 }
-header{
+.content-first{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .content-first h1{
     font-size: 40px;
@@ -43,6 +42,19 @@ header{
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+.blog-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-fourth h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
 
 .bg-color{
     background-color: #EADDCA;
@@ -70,6 +82,3 @@ header{
   	-o-animation:      thread2 8s infinite;
   	animation:         thread2 8s infinite;	
 }
-  /* .circle {
-    position: fixed;
-  } */

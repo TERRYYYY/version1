@@ -23,3 +23,10 @@ function changeBackground(){
 };
 
 window.addEventListener('scroll', changeBackground);
+
+
+$(function() {
+    $(".preload").fadeOut(2000, function() {
+        $(".content-first").fadeIn(1000);        
+    });
+});
